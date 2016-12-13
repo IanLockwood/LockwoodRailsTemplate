@@ -27,6 +27,25 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# HTML, CSS and JavaScript Stack
+gem 'slim-rails'
+gem 'sprockets-rails'
+gem 'bootstrap-sass'
+gem 'font-awesome-sass'
+gem 'select2-rails', '3.5.9.1'          # Lock at this version to prevent specs from breaking
+gem 'momentjs-rails' # Dependency of bootstrap3-datetimepicker-rails
+gem 'bootstrap3-datetimepicker-rails'
+gem 'bootstrap-editable-rails'
+gem 'bootstrap-select-rails', git: 'https://github.com/Slashek/bootstrap-select-rails.git'
+  # wait for PR merge: https://github.com/Slashek/bootstrap-select-rails/pull/26
+gem 'rails-timeago'
+gem 'lightbox2-rails'
+gem 'gon'
+gem 'twitter-typeahead-rails', :git => "https://github.com/yourabi/twitter-typeahead-rails.git"
+  # We need this merged PR: https://github.com/yourabi/twitter-typeahead-rails/pull/22
+gem 'browser'
+gem 'kaminari'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
